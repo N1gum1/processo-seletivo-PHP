@@ -1,0 +1,177 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+h1 {
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #374151;
+}
+
+h3 {
+    color: #374151;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   FORMULÁRIOS
+========================= */
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+
+/* =========================
+   TABELAS
+========================= */
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+th {
+    background-color: #1f2937;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+    background-color: #f9fafb;
+}
+
+
+/* =========================
+   MENSAGENS
+========================= */
+
+.mensagem-erro {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.mensagem-sucesso {
+    background-color: #dcfce7;
+    color: #166534;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   PAINEL
+========================= */
+
+.menu {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.menu a {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+
+/* =========================
+   LINHA DE SEPARAÇÃO
+========================= */
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
