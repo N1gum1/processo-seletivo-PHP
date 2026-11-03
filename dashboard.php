@@ -8,17 +8,11 @@ verificarLogin();
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
     <meta charset="UTF-8">
-
     <title>Painel - Processo Seletivo</title>
-
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
     <h1>Sistema de Processo Seletivo</h1>
@@ -27,15 +21,11 @@ verificarLogin();
         Olá, <?= htmlspecialchars($_SESSION['usuario_nome']) ?>!
     </h2>
 
-    <p>
-        Você está logado no sistema.
-    </p>
+    <p>Você está logado no sistema.</p>
 
     <p>
         Seu perfil:
-        <strong>
-            <?= htmlspecialchars($_SESSION['usuario_perfil']) ?>
-        </strong>
+        <strong><?= htmlspecialchars($_SESSION['usuario_perfil']) ?></strong>
     </p>
 
     <hr>
@@ -46,7 +36,13 @@ verificarLogin();
 
         <p>
             <a href="candidatos/listar.php">
-                📋 Candidatos
+                📋 Listar candidatos
+            </a>
+        </p>
+
+        <p>
+            <a href="candidatos/cadastrar.php">
+                ➕ Cadastrar candidato
             </a>
         </p>
 
@@ -54,7 +50,7 @@ verificarLogin();
 
             <p>
                 <a href="usuarios/listar.php">
-                    👥 Usuários
+                    👥 Gerenciar usuários
                 </a>
             </p>
 
@@ -69,6 +65,4 @@ verificarLogin();
     </div>
 
 </body>
-
 </html>
-
